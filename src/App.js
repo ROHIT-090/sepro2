@@ -1,0 +1,159 @@
+import './App.css';
+import Home from './Pages/Home'
+import { BrowserRouter,Routes,Route} from 'react-router-dom';
+import NewLog from './Pages/NewLog';
+import KMP from './Pages/KMP';
+import WaterSlide from './Pages/WaterSlide';
+import SeaWave from './Pages/Seawave';
+import Bungee from './Pages/Bungee';
+import RollerCoaster from './Pages/RollerCoaster';
+import WaterGames from './Pages/WaterGames';
+import DryGames from './Pages/DryGames';
+import Book from './Pages/Book';
+import Cart from './Pages/Cart';
+import Pay1 from './Pages/Pay1.';
+import Pay2 from './Pages/Pay2';
+import Pay3 from './Pages/Pay3';
+import Pay4 from './Pages/Pay4';
+import Pay5 from './Pages/Pay5';
+import Pay6 from './Pages/Pay6';
+import Pay7 from './Pages/Pay7';
+import Pay8 from './Pages/Pay8';
+import Pay9 from './Pages/Pay9';
+import Pay10 from './Pages/Pay10';
+import Bill1 from './Pages/Bill1';
+import Bill2 from './Pages/Bill2';
+import Bill3 from './Pages/Bill3';
+import Bill4 from './Pages/Bill4';
+import Bill5 from './Pages/Bill5';
+import Bill6 from './Pages/Bill6';
+import Bill7 from './Pages/Bill7';
+import Bill8 from './Pages/Bill8';
+import Bill9 from './Pages/Bill9';
+import Bill10 from './Pages/Bill10';
+import NewUser from './Pages/NewUser';
+import Type1 from './Pages/Type1';
+import Type2 from './Pages/Type2';
+import Type3 from './Pages/Type3';
+import Type4 from './Pages/Type4';
+import Type5 from './Pages/Type5';
+import Type6 from './Pages/Type6';
+import Type7 from './Pages/Type7';
+import Type8 from './Pages/Type8';
+import Type9 from './Pages/Type9';
+import Type10 from './Pages/Type10';
+import Home1 from './Pages/Home1';
+import Card1 from './Pages/Card1';
+import Card2 from './Pages/Card2';
+import Card3 from './Pages/Card3';
+import Card4 from './Pages/Card4';
+import Card5 from './Pages/Card5';
+import Card6 from './Pages/Card6';
+import Card7 from './Pages/Card7';
+import Card8 from './Pages/Card8';
+import Card9 from './Pages/Card9';
+import Card10 from './Pages/Card10';
+import Otp1 from './Pages/otp1';
+import Otp2 from './Pages/otp2';
+import Otp3 from './Pages/otp3';
+import Otp4 from './Pages/otp4';
+import Otp5 from './Pages/otp5';
+import Otp6 from './Pages/otp6';
+import Otp7 from './Pages/otp7';
+import Otp8 from './Pages/otp8';
+import Otp9 from './Pages/otp9';
+import Otp10 from './Pages/otp10';
+import Paymen1 from './Pages/Paymen1';
+import Paymen2 from './Pages/Paymen2';
+import Paymen3 from './Pages/Paymen3';
+import Paymen4 from './Pages/Paymen4';
+import Paymen5 from './Pages/Paymen5';
+import Paymen6 from './Pages/Paymen6';
+import Paymen7 from './Pages/Paymen7';
+import Paymen8 from './Pages/Paymen8';
+import Paymen9 from './Pages/Paymen9';
+import Paymen10 from './Pages/Paymen10';
+function App() {
+  return (
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/Home" element={<Home/>} />
+          <Route path="/Newuser" element={<NewUser/>}/>
+          <Route path="/NewLog" element={<NewLog/>} />
+          <Route path="/KMP" element={<KMP/>} />
+          <Route path="/WaterSlide" element={<WaterSlide/>} />
+          <Route path="/Seawave" element={<SeaWave/>} />
+          <Route path="/Bungee" element={<Bungee/>} />
+          <Route path="/RollerCoaster" element={<RollerCoaster/>} />
+          <Route path="/WaterGames" element={<WaterGames/>} />
+          <Route path="/DryGames" element={<DryGames/>} />
+          <Route path="Book" element={<Book/>} />
+          <Route path="Cart" element={<Cart/>} />
+          <Route path="Pay1" element={<Pay1/>} />
+          <Route path="Pay2" element={<Pay2/>} />
+          <Route path="Pay3" element={<Pay3/>} />
+          <Route path="Pay4" element={<Pay4/>} />
+          <Route path="Pay5" element={<Pay5/>} />
+          <Route path="Pay6" element={<Pay6/>} />
+          <Route path="Pay7" element={<Pay7/>} />
+          <Route path="Pay8" element={<Pay8/>} />
+          <Route path="Pay9" element={<Pay9/>} />
+          <Route path="Pay10" element={<Pay10/>} />
+          <Route path="Bill1" element={<Bill1/>} />
+          <Route path="Bill2" element={<Bill2/>} />
+          <Route path="Bill3" element={<Bill3/>} />
+          <Route path="Bill4" element={<Bill4/>} />
+          <Route path="Bill5" element={<Bill5/>} />
+          <Route path="Bill6" element={<Bill6/>} />
+          <Route path="Bill7" element={<Bill7/>} />
+          <Route path="Bill8" element={<Bill8/>} />
+          <Route path="Bill9" element={<Bill9/>} />
+          <Route path="Bill10" element={<Bill10/>} />
+          <Route path="Type1"  element={<Type1/>} />
+          <Route path="Type2"  element={<Type2/>} />
+          <Route path="Type3"  element={<Type3/>} />
+          <Route path="Type4"  element={<Type4/>} />          
+          <Route path="Type5"  element={<Type5/>} />
+          <Route path="Type6"  element={<Type6/>} />          
+          <Route path="Type7"  element={<Type7/>} />
+          <Route path="Type8"  element={<Type8/>} />          
+          <Route path="Type9"  element={<Type9/>} />
+          <Route path="Type10"  element={<Type10/>} />
+          <Route path="/Home1" element={<Home1/>} />
+          <Route path="/Card1" element={<Card1/>} />
+          <Route path="/Card2" element={<Card2/>} />
+          <Route path="/Card3" element={<Card3/>} />
+          <Route path="/Card4" element={<Card4/>} />
+          <Route path="/Card5" element={<Card5/>} />
+          <Route path="/Card6" element={<Card6/>} />
+          <Route path="/Card7" element={<Card7/>} />
+          <Route path="/Card8" element={<Card8/>} />
+          <Route path="/Card9" element={<Card9/>} />
+          <Route path="/Card10" element={<Card10/>} />
+          <Route path="/Otp1" element={<Otp1/>} />
+          <Route path="/Otp2" element={<Otp2/>} />
+          <Route path="/Otp3" element={<Otp3/>} />
+          <Route path="/Otp4" element={<Otp4/>} />
+          <Route path="/Otp5" element={<Otp5/>} />
+          <Route path="/Otp6" element={<Otp6/>} />
+          <Route path="/Otp7" element={<Otp7/>} />
+          <Route path="/Otp8" element={<Otp8/>} />
+          <Route path="/Otp9" element={<Otp9/>} />
+          <Route path="/Otp10" element={<Otp10/>} />
+          <Route path="/Paymen1" element={<Paymen1/>} />
+          <Route path="/Paymen2" element={<Paymen2/>} />
+          <Route path="/Paymen3" element={<Paymen3/>} />
+          <Route path="/Paymen4" element={<Paymen4/>} />
+          <Route path="/Paymen5" element={<Paymen5/>} />
+          <Route path="/Paymen6" element={<Paymen6/>} />
+          <Route path="/Paymen7" element={<Paymen7/>} />
+          <Route path="/Paymen8" element={<Paymen8/>} />
+          <Route path="/Paymen9" element={<Paymen9/>} />
+          <Route path="/Paymen10" element={<Paymen10/>} />
+        </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;

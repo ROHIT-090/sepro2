@@ -1,0 +1,36 @@
+
+
+body{
+    background-color: rgb(245, 246, 234);
+    margin: 0;
+    text-align: center;
+}
+.Water{
+    background-color: white;
+}
+h5{
+    font-size:xx-large;
+    color: rgb(234, 133, 18);
+}
+h6{
+    font-size:x-large;
+    font-weight: 500;
+    color: rgb(73, 113, 221);
+}
+.Water p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    line-height:2.5;
+}
+.Water img{
+    width: 700px;
+    height: 400px;
+}
+button{
+    background-color: rgb(241, 241, 241);
+}
+button1{
+    background-color: rgb(14, 4, 23);
+    color: white;
+}

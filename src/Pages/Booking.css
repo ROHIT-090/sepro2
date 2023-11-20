@@ -1,0 +1,46 @@
+/* Header */
+.Mytop{
+    background-color: rgb(238, 164, 144);
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100px;
+    color: rgb(255, 0, 0);
+    font-display:calc();
+}
+
+nav{
+    padding: 5px 5px !important;
+}
+
+.Mytop p{
+    color: rgb(44, 41, 41);
+    line-height: 3;
+    text-align: center;
+}
+
+/* TourMap section */
+.Tou-sec{
+    padding: 10px 0;
+    background-color: #ddebf3;
+    text-align: center;
+}
+
+.Tou-sec img{
+    width: 550px;
+    height: 300px;
+}
+
+.Tou-sec .tour-txt .p{
+    font-size: 208px;
+}
+
+.Tou-sec button{
+    align-content: center;
+    background-color: rgb(231, 227, 116);
+    width: 110px;
+    height: 50px;
+    border-radius: 100px;
+}
+.Tou-sec button:hover{
+    background-color: rgb(101, 93, 247);
+}

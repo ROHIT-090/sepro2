@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(198, 238, 198);
+    margin: 0;
+
+}
+div.bgImg{
+    width: auto;
+    height: auto;
+    background-image: url('https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/amusement-park-hyderabad.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.UpHead{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100px;
+    color: rgb(255, 0, 0);
+    font-display:calc();
+}
+
+nav{
+    padding: 5px 0px !important;
+}

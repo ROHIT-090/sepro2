@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+  
+.pay {
+
+    
+    background-color: white;
+    margin: 0;
+    text-align: center;
+    }
+
+h2{
+    font-size:xx-large;
+    font-family: 'Times New Roman';
+    color: blue;
+}
+.pay p{
+    color: rgb(220, 27, 27);
+    font-size: 20px;
+}
+.pay img{
+    width: 180px;
+    height: 80px;
+}
+
+.pay button{
+    background-color: rgb(162, 161, 161);
+    width: 60px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.pay button:hover{
+    background-color: aquamarine;
+}

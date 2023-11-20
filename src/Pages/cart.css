@@ -1,0 +1,26 @@
+
+.cart body{
+    background-color: rgb(251, 255, 255);
+    text-align: center;
+}
+.cart h5{
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.cart p{
+    background-color:rgb(249, 247, 246);
+    font-size: large;
+    text-align: center;
+    line-height: 2 ;
+}
+.cart button{
+    align-content: center;
+    background-color: rgb(189, 189, 23);
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+.cart button:hover{
+    background-color: rgb(93, 247, 144);
+}

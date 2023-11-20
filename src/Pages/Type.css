@@ -1,0 +1,15 @@
+.Type{
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+.Type button{
+    background-color: rgb(175, 242, 175);
+    border-radius: 100px;
+    width: 150px;
+    height: 70px;
+    align-items: center;
+}
+.Type button:hover{
+     background-color: rgb(255, 255, 255);
+}

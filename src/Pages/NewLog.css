@@ -1,0 +1,47 @@
+body{
+    background-color: lightgreen;
+    margin: 0;
+
+}
+
+.UpHead{
+    background-color: rgb(192, 220, 137);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600px;
+    color: rgb(30, 0, 255);
+    font-display:calc();
+    width: 1530px;
+    height: 1020px;
+    background-image: url('http://www.worldatlas.com/upload/0e/f9/19/theme-parks.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0%;
+}
+
+.UpHead  p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder
+}
+.UpHead h1{
+    color: black;
+    font-size: medium;
+}
+.UpHead button
+{
+    background-color: #00f84e;
+    border-radius: 100px;
+}
+.UpHead button:hover{
+     background-color: rgb(172, 123, 217);
+}
+.img-sec image{
+    width: 10;
+    height: 30;
+}
+
+nav{
+    padding: 5px 0px !important;
+}
